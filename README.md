@@ -33,7 +33,7 @@
 
 ### User Manual
 
-IDE launcher 简单实现了对文件的 `ls` 和 `cd` 操作, 唤醒 alfred 后， 输入任意 hotkey+空格 如 `code ` 则会出现文件列表(默认显示 `~` 目录, 设置默认目录[link]). 
+IDE launcher 简单实现了对文件的 `ls` 和 `cd` 操作, 唤醒 alfred 后， 输入任意 hotkey+空格 如 `code ` 则会出现文件列表(默认显示 `~` 目录, [设置默认目录](#customize-default-file-directory)). 
  - 输入 数字字母 可进行**模糊匹配**
  - 使用 `tab` 键补全目录
  - 输入 `/` 可以进入下层目录 (文件夹名称需补全)
@@ -52,11 +52,10 @@ IDE launcher 简单实现了对文件的 `ls` 和 `cd` 操作, 唤醒 alfred 后
   - Run `cd ~/Library/Application\ Support/Alfred\ 3/Alfred.alfredpreferences/workflows/`(Alfred3) or `/Library/Application\ Support/Alfred/Alfred.alfredpreferences/workflows/`(Alfred4).
   - Git clone this repo.(`git pull origin master` for update)
 
-### 自定义默认显示的文件路径
+### Customize default file directory.
+新增/修改 `/usr/local/etc/ide_launcher_config.json` 文件, `ide_default_path` 对应的值则是默认显示路径.
 
 ```bash
-修改 `/usr/local/etc/ide_launcher_config.json` 文件, `ide_default_path` 对应的值则是默认显示路径.
-
 cat >> /usr/local/etc/ide_launcher_config.json <<EOF
 { "ide_default_path": "~/your_path" }
 EOF
