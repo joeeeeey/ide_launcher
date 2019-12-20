@@ -3,12 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string>joeeey9303@gmail.com</string>
+	<string>joeeey9303@outlook.com</string>
 	<key>category</key>
 	<string>Tools</string>
 	<key>connections</key>
 	<dict>
-		<key>00092187-007C-47C1-99C6-6C2568AD3E48</key>
+		<key>00092187-007C-47C1-99C6-6C2568AD3E99</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
