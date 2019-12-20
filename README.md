@@ -43,8 +43,8 @@ IDE launcher 简单实现了对文件的 `ls` 和 `cd` 操作, 唤醒 alfred 后
 ## Installation
 
 - 使用二进制 workflow 文件.
-  - [Download latest release.](https://github.com/joeeeeey/ide_filter/releases)
-  - Double click `WorkingFilter.alfredworkflow` to install this workflow.
+  - [Download latest release.](https://github.com/joeeeeey/ide_launcher/releases)
+  - Double click `IDELauncher.alfredworkflow`(750KB) to install this workflow.
   (Reinstall for update)
 
 - 使用 github repo. 
@@ -55,6 +55,8 @@ IDE launcher 简单实现了对文件的 `ls` 和 `cd` 操作, 唤醒 alfred 后
 ### 自定义默认显示的文件路径
 
 ```bash
+修改 `/usr/local/etc/ide_launcher_config.json` 文件, `ide_default_path` 对应的值则是默认显示路径.
+
 cat >> /usr/local/etc/ide_launcher_config.json <<EOF
 { "ide_default_path": "~/your_path" }
 EOF
