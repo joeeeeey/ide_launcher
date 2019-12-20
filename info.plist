@@ -8,7 +8,7 @@
 	<string>Tools</string>
 	<key>connections</key>
 	<dict>
-		<key>95132ABC-8907-4D39-B228-4D9EF25A6AF8</key>
+		<key>sublime_logo</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
@@ -325,7 +325,7 @@ open -a "`ls -dt /Applications/PyCharm.app*|head -1`" "$query"</string>
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>95132ABC-8907-4D39-B228-4D9EF25A6AF8</string>
+			<string>sublime_logo</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
@@ -399,7 +399,7 @@ open -a "`ls -dt /Applications/Sublime\ Text.app*|head -1`" "$query"</string>
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>00092187-007C-47C1-99C6-6C2568AD3E48</string>
+			<string>pycharm_logo</string>
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
@@ -408,7 +408,7 @@ open -a "`ls -dt /Applications/Sublime\ Text.app*|head -1`" "$query"</string>
 	<string>Updated by Andreas Stokholm to be able to handle multiple local IP-addresses.</string>
 	<key>uidata</key>
 	<dict>
-		<key>00092187-007C-47C1-99C6-6C2568AD3E48</key>
+		<key>pycharm_logo</key>
 		<dict>
 			<key>xpos</key>
 			<integer>700</integer>
@@ -436,7 +436,7 @@ open -a "`ls -dt /Applications/Sublime\ Text.app*|head -1`" "$query"</string>
 			<key>ypos</key>
 			<integer>110</integer>
 		</dict>
-		<key>95132ABC-8907-4D39-B228-4D9EF25A6AF8</key>
+		<key>sublime_logo</key>
 		<dict>
 			<key>xpos</key>
 			<integer>260</integer>
